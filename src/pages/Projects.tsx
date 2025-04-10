@@ -226,7 +226,7 @@ const Projects = () => {
                   {project.title === "Infrastructure Virtualisée Proxmox" && (
                     <div className="mb-8">
                       <img
-                        src="../public/infra.png"
+                        src="../infra.png"
                         alt="Infrastructure Diagram"
                         className="w-full h-auto border rounded-lg border-border"
                       />
