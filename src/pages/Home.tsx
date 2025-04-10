@@ -144,7 +144,7 @@ const Home = () => {
               <div className="absolute inset-0 rounded-full opacity-50 bg-gradient-to-r from-red-500 to-rose-700 blur-lg" />
               {/* TODO: Remplacez l'URL ci-dessous par l'URL de votre photo de profil */}
               <img
-                src="../public/photo.jpg"
+                src="../dist/assets/photo.jpg"
                 alt="Profile"
                 className="relative object-cover w-full h-full border-2 rounded-full border-primary"
               />
