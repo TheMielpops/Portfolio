@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 import { ArrowLeft, Download } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -42,7 +41,7 @@ const About = () => {
               <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-transparent rounded-2xl -z-10" />
               {/* TODO: Remplacez l'URL ci-dessous par l'URL de votre photo de profil */}
               <img
-                src="https://imgur.com/kSPTpmU"
+                src="https://res.cloudinary.com/dfajcblkp/image/upload/v1744313927/photo_vry1n5.jpg"
                 alt="Profile"
                 className="w-full h-auto shadow-xl rounded-2xl"
               />
@@ -75,7 +74,7 @@ const About = () => {
             <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
               <div className="space-y-2">
                 <p className="text-muted-foreground">
-                  Dernière mise à jour : 02/04/2025
+                  Dernière mise à jour : 10/04/2025
                 </p>
                 <h3 className="text-xl font-semibold">
                   Mon CV est disponible au téléchargement
