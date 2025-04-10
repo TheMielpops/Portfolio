@@ -226,7 +226,7 @@ const Projects = () => {
                   {project.title === "Infrastructure Virtualisée Proxmox" && (
                     <div className="mb-8">
                       <img
-                        src="../infra.png"
+                        src="https://res.cloudinary.com/dfajcblkp/image/upload/v1744313945/infra_iqxxpf.png"
                         alt="Infrastructure Diagram"
                         className="w-full h-auto border rounded-lg border-border"
                       />

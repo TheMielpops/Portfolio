@@ -28,7 +28,7 @@ const About = () => {
               <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-transparent rounded-2xl -z-10" />
               {/* TODO: Remplacez l'URL ci-dessous par l'URL de votre photo de profil */}
               <img
-                src="../photo.jpg"
+                src="https://res.cloudinary.com/dfajcblkp/image/upload/v1744313927/photo_vry1n5.jpg"
                 alt="Profile"
                 className="w-full h-auto shadow-xl rounded-2xl"
               />
