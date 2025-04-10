@@ -1,8 +1,22 @@
+import React from "react";
 import { motion } from "framer-motion";
 import { ArrowLeft, Download } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const About = () => {
+  const handleDownloadCV = () => {
+    // Remplacez cette URL par le lien vers votre CV
+    const cvUrl = "/CV_Noah_Dauge.pdf";
+
+    // Créer un élément <a> temporaire pour déclencher le téléchargement
+    const link = document.createElement("a");
+    link.href = cvUrl;
+    link.download = "CV_Noah_Dauge.pdf"; // Nom du fichier lors du téléchargement
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <div className="min-h-[calc(100vh-5rem)] py-16">
       <div className="container px-4 mx-auto">
@@ -28,7 +42,7 @@ const About = () => {
               <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-transparent rounded-2xl -z-10" />
               {/* TODO: Remplacez l'URL ci-dessous par l'URL de votre photo de profil */}
               <img
-                src="https://res.cloudinary.com/dfajcblkp/image/upload/v1744313927/photo_vry1n5.jpg"
+                src="https://imgur.com/kSPTpmU"
                 alt="Profile"
                 className="w-full h-auto shadow-xl rounded-2xl"
               />
@@ -67,7 +81,10 @@ const About = () => {
                   Mon CV est disponible au téléchargement
                 </h3>
               </div>
-              <button className="inline-flex items-center px-6 py-3 font-medium transition-colors rounded-full bg-primary text-primary-foreground hover:bg-primary/90">
+              <button
+                onClick={handleDownloadCV}
+                className="inline-flex items-center px-6 py-3 font-medium transition-colors rounded-full bg-primary text-primary-foreground hover:bg-primary/90"
+              >
                 <Download className="w-4 h-4 mr-2" />
                 Télécharger mon CV
               </button>
