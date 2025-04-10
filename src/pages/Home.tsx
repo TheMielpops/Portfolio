@@ -144,12 +144,11 @@ const Home = () => {
               <div className="absolute inset-0 rounded-full opacity-50 bg-gradient-to-r from-red-500 to-rose-700 blur-lg" />
               {/* TODO: Remplacez l'URL ci-dessous par l'URL de votre photo de profil */}
               <img
-                src="../photo.jpg"
+                src="/public/photo.jpg"
                 alt="Profile"
                 className="relative object-cover w-full h-full border-2 rounded-full border-primary"
               />
             </div>
-
             <h1 className="text-4xl font-bold md:text-6xl">
               <TypeAnimation
                 sequence={["Admin Réseau", 2000, "Cybersécurité", 2000]}
