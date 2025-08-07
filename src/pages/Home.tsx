@@ -160,7 +160,7 @@ const Home = () => {
             </h1>
 
             <p className="max-w-2xl mx-auto text-lg md:text-xl text-muted-foreground">
-              Étudiant en informatique à l'IPSSI Nice, passioné par le réseau et
+              Étudiant en informatique à l'IPSSI Nice, passioné par le réseau et la
               cybersécurité.
             </p>
 
