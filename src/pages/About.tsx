@@ -10,7 +10,7 @@ const About = () => {
     // Créer un élément <a> temporaire pour déclencher le téléchargement
     const link = document.createElement("a");
     link.href = cvUrl;
-    link.download = "CV_Noah_Dauge.pdf"; 
+    link.download = "dauge-noah-cv.pdf"; 
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
