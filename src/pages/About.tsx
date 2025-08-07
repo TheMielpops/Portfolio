@@ -74,7 +74,7 @@ const About = () => {
             <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
               <div className="space-y-2">
                 <p className="text-muted-foreground">
-                  Dernière mise à jour : 10/04/2025
+                  Dernière mise à jour : 07/08/2025
                 </p>
                 <h3 className="text-xl font-semibold">
                   Mon CV est disponible au téléchargement
